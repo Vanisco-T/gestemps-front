@@ -1,0 +1,78 @@
+.form1{
+    height: 70%;
+    width: 65%;
+    margin-left: 20%;
+    margin-right: 5%;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    margin-top:6%;
+    margin-bottom:15%;
+    border-radius: 2%;
+    border: 2px solid var(--appColor);
+  }
+  .h{
+    margin-right: 5%;
+    width: 450px;
+  }
+  .h img{
+    width: 60%;
+    height: 60%;
+    margin-top: -6%;
+  }
+  .form1 h3 {
+    text-align: center;
+  }
+  .Link{
+    text-decoration: none;
+    color: var(--appColor);
+    font-size: 17px;
+  }
+  .form2{
+    margin-right: 6%;
+  }
+  .form2 h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--appColor);
+  }
+  .login{
+    background-color: var(--appColor);
+    color: #fff;
+    border: var(--appColor);
+    border-radius: 4px;
+    height: 35px;
+    width: 120px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .login{
+        margin-left: 30%;
+      }
+    .h p{
+        margin-left: 30%;
+    }
+  }
+  @media screen and (max-width: 758px) {
+    .h{
+      display: none;
+    }
+    #login{
+      text-align: center;
+    }
+  }
+
+  .h p{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .label{
+    margin-top: 5px;
+    position: relative;
+    top: 12px;
+    margin-left: 5%;
+    background-color: #fff;
+  }

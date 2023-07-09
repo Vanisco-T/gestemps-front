@@ -1,0 +1,46 @@
+.powerk{
+    height: 50%;
+    width: 50%;
+}
+.Link{
+    color:var(--appColor) !important;
+    font-size: x-large;
+}
+
+.nav-link.active {
+    color: var(--btn1) !important;
+  }
+.btn {
+    background-color: var(--appColor);
+    color: #fff;
+    border-color: var(--appColor);
+}
+.btn1 {
+    background-color: var(--appColor);
+    color: #fff;
+    border-color: var(--appColor);
+}
+.btn-log{
+    color: var(--appColor);
+    color: #fff;
+    border-color: var(--appColor);
+    border-radius: 3px;
+    margin-left:2% ;
+}
+
+.main{
+    margin-bottom: 2%;
+}
+.main h2{
+    color: var(--appColor);
+}
+
+
+
+
+@media screen and (min-width:760px){
+    .main h2{
+        margin-left: 23%;
+    }
+
+}
